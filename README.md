@@ -218,38 +218,46 @@ The platform integrates with OpenAI Large Language Models to perform:
 ```
 
 ### Workflow
-
-```
-┌────────────────────────────┐
-│          User              │
-└─────────────┬──────────────┘
-              │
-              ▼
-     Upload Documents / Ask AI
-              │
-              ▼
-┌────────────────────────────┐
-│      FastAPI Backend       │
-│ • Authentication           │
-│ • Request Validation       │
-│ • Business Logic           │
-└─────────────┬──────────────┘
-              │
-      ┌───────┴────────┐
-      │                │
-      ▼                ▼
-┌──────────────┐  ┌────────────────┐
-│ MySQL        │  │ OpenAI API     │
-│ Store Files  │  │ LLM Processing │
-│ & Metadata   │  │                │
-└──────┬───────┘  └────────┬───────┘
-       │                   │
-       └─────────┬─────────┘
-                 ▼
-      AI Generates Response
-                 │
-                 ▼
-      Results Returned to User
+```text
+👤 User
+   │
+   ▼
+🔐 Authenticate
+   │
+   ▼
+📄 Upload Documents
+   │
+   ▼
+⚡ FastAPI Backend
+   ├── Validate Request
+   ├── Process Documents
+   ├── Extract Metadata
+   └── Store Records
+   │
+   ▼
+🗄️ MySQL Database
+   │
+   ▼
+💬 User Submits AI Query
+   │
+   ▼
+📚 Retrieve Relevant Context
+   │
+   ▼
+🤖 OpenAI API (LLM)
+   │
+   ▼
+🧠 AI Processing
+   ├── Understand Document
+   ├── Summarize Content
+   ├── Answer Questions
+   └── Generate Insights
+   │
+   ▼
+⚡ FastAPI Formats Response
+   │
+   ▼
+🌐 Web Interface Displays Results
 ```
 ---
 
