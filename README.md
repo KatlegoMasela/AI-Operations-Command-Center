@@ -12,8 +12,7 @@ Transform scattered documents into an intelligent AI-powered knowledge workspace
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-LLM-412991?style=for-the-badge&logo=openai&logoColor=white)
-![GitHub](https://img.shields.io/github/license/KatlegoMasela/YOUR_REPOSITORY_NAME?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/KatlegoMasela/YOUR_REPOSITORY_NAME?style=for-the-badge)
+
 
 ---
 
