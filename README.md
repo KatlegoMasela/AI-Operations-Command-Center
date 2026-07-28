@@ -103,10 +103,29 @@ Example:
 # System Architecture
 
 ```
+                +------------------+
+                |      Client      |
+                |   Web Interface  |
+                +--------+---------+
+                         |
+                         |
+                    REST API
+                         |
+                         ▼
+                +------------------+
+                |     FastAPI      |
+                | Backend Services |
+                +--------+---------+
+                         |
+          +--------------+-------------+
+          |                            |
+          ▼                            ▼
+     OpenAI API                   MySQL Database
+          |                            |
+          ▼                            ▼
+ AI Processing                 User & Document Data
+```
 
-         <p align="center">
-  <img src="images/architecture.png" width="900" alt="System Architecture"/>
-</p>
 ---
 
 # Technology Stack
@@ -128,30 +147,6 @@ Example:
 
 - Git
 - GitHub
-
----
-
-# Project Structure
-
-```
-project/
-│
-├── backend/
-│   ├── API
-│   ├── Services
-│   ├── Models
-│   ├── Authentication
-│   └── AI Integration
-│
-├── frontend/
-│
-├── database/
-│
-├── uploads/
-│
-└── README.md
-```
-
 ---
 
 # Typical Workflow
@@ -236,7 +231,7 @@ This project was built to demonstrate how modern AI can solve real-world knowled
 
 **Katlego Masela**
 
-AI Applied Engineer
+AI Applied Engineer / AI Automation Engineer / AI Solution Engineer
 
 Focused on building intelligent software that combines AI, automation, and scalable backend systems to solve real business problems.
 
