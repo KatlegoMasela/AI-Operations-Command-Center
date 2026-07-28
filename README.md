@@ -200,13 +200,6 @@ The platform integrates with OpenAI Large Language Models to perform:
 ---
 
 # 🏗️ System Architecture
-
-<p align="center">
-<img src="./ChatGPT%20Image%20Jul%2028,%202026,%2010_47_54%20AM.png" width="900">
-</p>
-
----
-
 ## Architecture Overview
 
 ```
