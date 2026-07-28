@@ -1,372 +1,553 @@
 <div align="center">
 
-# 🤖 AI Operations Command Center
+# 🚀 AI Operations Command Center
 
-### An AI-powered workspace for document intelligence, knowledge retrieval, and productivity
+### Intelligent Document Management & AI Knowledge Platform
 
-<p>
-  Transform scattered files into searchable, summarized, and conversational knowledge.
-</p>
+Transform scattered documents into an intelligent AI-powered knowledge workspace.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/GitHub-Version_Control-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</p>
+---
+
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-LLM-412991?style=for-the-badge&logo=openai&logoColor=white)
+![GitHub](https://img.shields.io/github/license/KatlegoMasela/YOUR_REPOSITORY_NAME?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/KatlegoMasela/YOUR_REPOSITORY_NAME?style=for-the-badge)
+
+---
+
+### 📚 AI • Document Intelligence • Knowledge Management • LLM Applications
 
 </div>
 
 ---
 
-## 📌 Project Overview
+# 📖 Overview
 
-The **AI Operations Command Center** is an AI-powered document intelligence application designed to solve a common operational problem: professionals often spend too much time searching through files, notes, reports, and internal documents for information they already have.
+The **AI Operations Command Center** is an enterprise-inspired AI document intelligence platform that transforms traditional document storage into an interactive knowledge workspace powered by Large Language Models (LLMs).
 
-The platform provides a centralized workspace where users can upload documents, organize information, search content, generate AI-powered summaries, and interact with their knowledge using natural language.
+Instead of manually opening dozens of documents, searching through folders, or reading lengthy reports, users can simply upload their documents and interact with them using natural language.
 
-This project demonstrates how modern backend engineering and Large Language Models can be combined to improve information accessibility, productivity, and decision-making.
+The system combines modern backend engineering, AI, REST APIs, and intelligent document processing to dramatically improve how knowledge is stored, searched, summarized, and consumed.
 
----
+This project demonstrates how AI can be integrated into real-world software systems to solve one of the biggest organizational problems:
 
-## 🎯 Business Problem
-
-Professionals and organizations often manage information across multiple disconnected files and systems.
-
-This creates several operational challenges:
-
-| Challenge                                   | Business Impact                                         |
-| ------------------------------------------- | ------------------------------------------------------- |
-| Information is scattered across documents   | Employees struggle to locate important information      |
-| Manual document searching                   | Valuable time is lost opening and reviewing files       |
-| Lengthy reports require repeated reading    | Decision-making becomes slower                          |
-| Important insights are difficult to extract | Critical information may be overlooked                  |
-| Knowledge is not conversational             | Users cannot ask direct questions about their documents |
-
-The result is reduced productivity, duplicated effort, and slower access to useful knowledge.
+> **Finding the right information at the right time.**
 
 ---
 
-## 💡 Proposed Solution
+# 🎯 Business Problem
 
-The AI Operations Command Center transforms uploaded documents into an intelligent personal knowledge workspace.
+Every organization generates thousands of documents:
 
-Users can:
+- Policies
+- Standard Operating Procedures
+- Research Papers
+- Contracts
+- Reports
+- Meeting Notes
+- Technical Documentation
+- Training Material
 
-* Upload and manage documents
-* Store notes and relevant information
-* Search document content
-* Generate concise AI summaries
-* Ask natural-language questions
-* Retrieve useful insights without manually reading every file
-* Maintain user-specific document collections
+Unfortunately, this information often becomes:
 
-The application provides one central location for managing, searching, and understanding personal or professional information.
+❌ Difficult to locate
 
----
+❌ Time-consuming to read
 
-## ✨ Core Features
+❌ Scattered across folders
 
-<table>
-<tr>
-<td width="50%">
+❌ Repeatedly recreated
 
-### 🔐 User Authentication
+❌ Underutilized
 
-* User registration
-* Secure login
-* Account-based access
-* User-specific data management
-* Protected application routes
+Employees spend a significant amount of their working hours searching for information that already exists.
 
-</td>
-<td width="50%">
+This leads to:
 
-### 📁 Document Management
-
-* Upload documents
-* View uploaded files
-* Store document metadata
-* Organize personal knowledge
-* Track document history
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🔎 Intelligent Search
-
-* Search stored information
-* Find relevant document content
-* Reduce manual document review
-* Improve information retrieval speed
-
-</td>
-<td width="50%">
-
-### 🧠 AI Summarization
-
-* Generate concise document summaries
-* Extract key points
-* Reduce time spent reading long content
-* Support faster decision-making
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 💬 AI Chat Interface
-
-* Ask questions about uploaded content
-* Receive natural-language responses
-* Extract recommendations
-* Identify action items and important details
-
-</td>
-<td width="50%">
-
-### 🗄️ Data Persistence
-
-* Store users
-* Store document records
-* Store notes and metadata
-* Maintain structured application data in MySQL
-
-</td>
-</tr>
-</table>
+- Reduced productivity
+- Poor decision making
+- Duplicate work
+- Knowledge silos
+- Higher operational costs
 
 ---
 
-## 💬 Example AI Interactions
+# 💡 Solution
 
-Users can interact with uploaded documents using prompts such as:
+The AI Operations Command Center centralizes organizational knowledge into one intelligent platform.
 
-```text
-Summarize this report.
+Instead of searching manually, users simply ask questions like:
+
+> "Summarize this report."
+
+> "What are the main recommendations?"
+
+> "Which documents mention cybersecurity?"
+
+> "What actions were assigned during the meeting?"
+
+The AI instantly analyzes uploaded documents and provides accurate, contextual answers.
+
+---
+
+# ✨ Key Features
+
+## 🔐 Secure Authentication
+
+- User Registration
+- Secure Login
+- Session Management
+- User-specific document isolation
+- Protected API endpoints
+
+---
+
+## 📂 Intelligent Document Management
+
+Upload and organize knowledge in one secure workspace.
+
+### Supported Features
+
+- Upload documents
+- View uploaded files
+- Organize personal knowledge
+- Document history
+- Metadata management
+- File management
+
+---
+
+## 🔍 Intelligent Search
+
+Traditional systems search filenames.
+
+This platform searches **knowledge**.
+
+Users can instantly retrieve information without opening every document.
+
+### Benefits
+
+- Faster information retrieval
+- Reduced manual searching
+- Increased productivity
+- Better knowledge accessibility
+
+---
+
+## 🤖 AI Document Summarization
+
+Generate intelligent summaries from lengthy documents.
+
+Perfect for:
+
+- Annual Reports
+- Company Policies
+- Research Papers
+- Technical Documentation
+- Meeting Minutes
+- Business Proposals
+- Compliance Documents
+
+---
+
+## 💬 AI Chat Assistant
+
+Interact with uploaded knowledge naturally.
+
+Example prompts:
+
 ```
+Summarize this document.
 
-```text
-What are the main recommendations in this document?
-```
+Explain the key findings.
 
-```text
-List the most important action items.
-```
+List all action items.
 
-```text
-What risks are mentioned in the report?
-```
+Who is responsible for each task?
 
-```text
-Explain this document in simple language.
+What risks were identified?
+
+Create executive summary.
+
+Explain this document for beginners.
 ```
 
 ---
 
-## 🏗️ System Architecture
+## ⚡ REST API Backend
+
+The backend is built using **FastAPI**, providing:
+
+- High performance
+- Automatic API documentation
+- JSON-based communication
+- Modular architecture
+- Easy AI integration
+
+---
+
+## 🧠 OpenAI Integration
+
+The platform integrates with OpenAI Large Language Models to perform:
+
+- Question Answering
+- Summarization
+- Text Understanding
+- Knowledge Extraction
+- Natural Language Processing
+
+---
+
+# 🏗️ System Architecture
 
 <p align="center">
-  <img src="images/architecture.png" alt="AI Operations Command Center Architecture" width="900"/>
+<img src="./ChatGPT%20Image%20Jul%2028,%202026,%2010_47_54%20AM.png" width="900">
 </p>
 
-### Architecture Flow
+---
 
-```text
+## Architecture Overview
+
+```
+                  Client (Web Interface)
+                          │
+                          │ REST API
+                          ▼
+                  FastAPI Backend Services
+                  ├───────────────┐
+                  │               │
+                  ▼               ▼
+             OpenAI API       MySQL Database
+                  │               │
+                  ▼               ▼
+          AI Processing     User & Document Data
+```
+
+### Workflow
+
+```
 User
-  │
-  ▼
-Web Interface
-  │
-  ▼
-REST API
-  │
-  ▼
+
+↓
+
+Uploads Documents
+
+↓
+
 FastAPI Backend
-  │
-  ├──────────────► OpenAI API
-  │                  │
-  │                  ▼
-  │             AI Processing
-  │
-  └──────────────► MySQL Database
-                     │
-                     ▼
-              User and Document Data
+
+↓
+
+Stores Metadata
+
+↓
+
+MySQL Database
+
+↓
+
+User asks AI a Question
+
+↓
+
+Backend sends Context
+
+↓
+
+OpenAI API
+
+↓
+
+LLM Processes Document
+
+↓
+
+AI Response Returned
+
+↓
+
+Displayed to User
 ```
 
-### Component Responsibilities
+---
 
-| Component       | Responsibility                                                                   |
-| --------------- | -------------------------------------------------------------------------------- |
-| Web Interface   | Allows users to register, log in, upload documents, search, and interact with AI |
-| REST API        | Handles communication between the user interface and backend services            |
-| FastAPI Backend | Manages business logic, authentication, document operations, and AI requests     |
-| OpenAI API      | Generates summaries and natural-language responses                               |
-| MySQL Database  | Stores users, document details, notes, and application metadata                  |
-| GitHub          | Provides version control, project tracking, and source-code hosting              |
+# ⚙️ Technology Stack
+
+| Category | Technology |
+|------------|-------------|
+| Language | Python |
+| Backend | FastAPI |
+| Database | MySQL |
+| AI | OpenAI API |
+| API | REST |
+| Authentication | JWT |
+| Version Control | Git |
+| Repository | GitHub |
 
 ---
 
-## 🔄 Typical User Workflow
-
-```mermaid
-flowchart TD
-    A[User Creates an Account] --> B[User Logs In]
-    B --> C[User Uploads a Document]
-    C --> D[Backend Processes the Upload]
-    D --> E[Document Data Is Stored]
-    E --> F{User Action}
-    F --> G[Search Document Content]
-    F --> H[Generate AI Summary]
-    F --> I[Ask a Question]
-    G --> J[Relevant Information Returned]
-    H --> K[AI Summary Returned]
-    I --> L[AI Answer Returned]
-```
-
-### Step-by-Step Flow
-
-1. A user creates an account.
-2. The user logs into the application.
-3. The user uploads one or more documents.
-4. The backend validates and processes the upload.
-5. Document details are stored in the database.
-6. The user selects a document or searches stored information.
-7. The backend sends the relevant content to the AI service.
-8. The AI generates a summary or response.
-9. The result is returned through the interface.
-10. The user continues working with their document knowledge.
-
----
-
-## 🛠️ Technology Stack
-
-### Backend
-
-| Technology | Purpose                              |
-| ---------- | ------------------------------------ |
-| Python     | Core programming language            |
-| FastAPI    | REST API and backend development     |
-| Pydantic   | Data validation and request handling |
-| Uvicorn    | ASGI application server              |
-
-### Database
-
-| Technology | Purpose                                                      |
-| ---------- | ------------------------------------------------------------ |
-| MySQL      | Persistent storage for users, documents, notes, and metadata |
-
-### Artificial Intelligence
-
-| Technology | Purpose                                                       |
-| ---------- | ------------------------------------------------------------- |
-| OpenAI API | AI summaries, natural-language answers, and document analysis |
-
-### Development Tools
-
-| Technology            | Purpose                                  |
-| --------------------- | ---------------------------------------- |
-| Git                   | Source-code version control              |
-| GitHub                | Repository hosting and project portfolio |
-| VS Code               | Development environment                  |
-| Postman or Swagger UI | API testing and documentation            |
-
----
-
-## 📂 Suggested Project Structure
+# 🔄 Typical Workflow
 
 ```text
+User Login
+      │
+      ▼
+Upload Documents
+      │
+      ▼
+Store Metadata
+      │
+      ▼
+User Searches Knowledge
+      │
+      ▼
+FastAPI Processes Request
+      │
+      ▼
+OpenAI Processes Context
+      │
+      ▼
+AI Generates Response
+      │
+      ▼
+Results Displayed
+```
+
+---
+
+# 💼 Real-World Use Cases
+
+## 🎓 Student Learning Assistant
+
+### Problem
+
+Students spend hours reading lecture notes before exams.
+
+### Solution
+
+Upload all lecture material.
+
+Ask:
+
+- Summarize Chapter 5
+- Explain Neural Networks
+- Generate revision notes
+- Create practice questions
+
+---
+
+## 🔬 Research Assistant
+
+### Problem
+
+Researchers read hundreds of papers.
+
+### Solution
+
+Upload research papers.
+
+AI can:
+
+- Compare studies
+- Summarize findings
+- Extract methodologies
+- Identify research gaps
+- Generate literature reviews
+
+---
+
+## 🏢 Corporate Knowledge Management
+
+### Problem
+
+Employees cannot find company policies quickly.
+
+### Solution
+
+Upload company documentation.
+
+Employees ask:
+
+> "What is our remote work policy?"
+
+Instead of searching dozens of folders, AI provides the answer instantly.
+
+---
+
+## 📊 Business Intelligence
+
+Managers upload:
+
+- Sales Reports
+- Financial Statements
+- Performance Dashboards
+
+AI provides:
+
+- Executive summaries
+- Trends
+- Risks
+- Recommendations
+- KPIs
+
+---
+
+## ⚖️ Legal Teams
+
+Upload contracts.
+
+AI can:
+
+- Summarize agreements
+- Identify obligations
+- Highlight deadlines
+- Explain clauses
+
+---
+
+## 🏥 Healthcare
+
+Upload:
+
+- Medical guidelines
+- Clinical procedures
+- Training manuals
+
+AI helps professionals quickly retrieve relevant medical information.
+
+---
+
+## 🏛️ Government
+
+Government departments often manage thousands of policies.
+
+AI enables officials to:
+
+- Search regulations
+- Summarize legislation
+- Retrieve compliance requirements
+- Improve citizen service delivery
+
+---
+
+## 🏭 Engineering
+
+Engineering teams upload:
+
+- Specifications
+- Technical Manuals
+- Maintenance Procedures
+
+AI can instantly answer technical questions from documentation.
+
+---
+
+# 📚 Learning Objectives
+
+This project demonstrates practical experience with:
+
+✅ REST API Development
+
+✅ FastAPI
+
+✅ Authentication
+
+✅ AI Integration
+
+✅ Large Language Models
+
+✅ Prompt Engineering
+
+✅ Backend Engineering
+
+✅ Database Design
+
+✅ Software Architecture
+
+✅ API Design
+
+✅ Modern Python Development
+
+✅ Knowledge Management Systems
+
+---
+
+# 📈 Scalability Opportunities
+
+Future enterprise improvements include:
+
+- Vector Databases
+- Semantic Search
+- RAG (Retrieval-Augmented Generation)
+- OCR
+- PDF Parsing
+- Word Processing
+- Multi-document Chat
+- Background Workers
+- Docker
+- Kubernetes
+- Redis Caching
+- Role-Based Access Control
+- Audit Logs
+- Cloud Deployment
+- Azure Integration
+- AWS Deployment
+- CI/CD Pipelines
+
+---
+
+# 📂 Project Structure
+
+```
 AI-Operations-Command-Center/
+
 │
 ├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── routes/
-│   │   ├── core/
-│   │   ├── models/
-│   │   ├── schemas/
-│   │   ├── services/
-│   │   ├── database/
-│   │   ├── utilities/
-│   │   └── main.py
-│   │
-│   ├── tests/
-│   └── requirements.txt
 │
-├── frontend/
-│   ├── src/
-│   └── public/
+├── database/
 │
-├── images/
-│   └── architecture.png
+├── models/
+│
+├── services/
+│
+├── routers/
+│
+├── authentication/
 │
 ├── uploads/
-├── .env.example
-├── .gitignore
+│
+├── static/
+│
+├── requirements.txt
+│
 ├── README.md
-└── LICENSE
-```
-
-> The actual project structure may differ as development progresses.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Ensure the following tools are installed:
-
-* Python 3.12 or later
-* MySQL
-* Git
-* An OpenAI API key
-
----
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/ai-operations-command-center.git
-```
-
-```bash
-cd ai-operations-command-center
+│
+└── .env
 ```
 
 ---
 
-### 2. Create a Virtual Environment
+# 🚀 Getting Started
 
-#### Windows
-
-```bash
-python -m venv venv
-```
+## Clone Repository
 
 ```bash
-venv\Scripts\activate
-```
-
-#### macOS or Linux
-
-```bash
-python3 -m venv venv
-```
-
-```bash
-source venv/bin/activate
+git clone https://github.com/KatlegoMasela/YOUR_REPOSITORY_NAME.git
 ```
 
 ---
 
-### 3. Install Dependencies
+## Navigate
+
+```bash
+cd YOUR_REPOSITORY_NAME
+```
+
+---
+
+## Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -374,279 +555,119 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Configure Environment Variables
+## Configure Environment
 
-Create a `.env` file in the project root.
+Create a `.env` file.
+
+Example:
 
 ```env
-DATABASE_URL=mysql+pymysql://username:password@localhost/ai_operations_db
-OPENAI_API_KEY=your_openai_api_key
-SECRET_KEY=your_secure_secret_key
-```
+OPENAI_API_KEY=your_key
 
-Never commit the `.env` file to GitHub.
+DATABASE_URL=your_database
 
-Use `.env.example` to show which environment variables are required without exposing credentials.
-
----
-
-### 5. Create the MySQL Database
-
-```sql
-CREATE DATABASE ai_operations_db;
+JWT_SECRET=your_secret
 ```
 
 ---
 
-### 6. Start the Application
+## Run
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-The API should be available at:
+---
 
-```text
-http://127.0.0.1:8000
+## API Documentation
+
+FastAPI automatically provides documentation.
+
+```
+http://localhost:8000/docs
 ```
 
-Interactive API documentation:
+Swagger UI
 
-```text
-http://127.0.0.1:8000/docs
 ```
-
-Alternative API documentation:
-
-```text
-http://127.0.0.1:8000/redoc
+http://localhost:8000/redoc
 ```
 
 ---
 
-## 🔌 Example API Endpoints
+# 🤝 Contributing
 
-| Method | Endpoint                    | Description                           |
-| ------ | --------------------------- | ------------------------------------- |
-| POST   | `/auth/register`            | Create a user account                 |
-| POST   | `/auth/login`               | Authenticate a user                   |
-| POST   | `/documents/upload`         | Upload a document                     |
-| GET    | `/documents`                | Retrieve uploaded documents           |
-| GET    | `/documents/{id}`           | Retrieve one document                 |
-| POST   | `/documents/{id}/summarize` | Generate an AI summary                |
-| POST   | `/chat`                     | Ask a question about document content |
-| GET    | `/search`                   | Search stored document information    |
+Contributions are welcome.
 
-> Endpoint names should be updated to match the final implementation.
+1. Fork the repository
 
----
+2. Create a feature branch
 
-## 🧪 Example Use Cases
+3. Commit changes
 
-### 🎓 Students
+4. Push branch
 
-* Upload lecture notes
-* Generate study summaries
-* Ask questions about course material
-* Extract important concepts
-
-### 🔬 Researchers
-
-* Summarize research papers
-* Identify key findings
-* Compare information across documents
-* Extract recommendations
-
-### 💼 Consultants
-
-* Search client documents
-* Retrieve project information
-* Summarize reports
-* Identify action items
-
-### 🏢 Business Professionals
-
-* Review internal reports
-* Search policies and procedures
-* Extract key decisions
-* Reduce time spent reading long documents
-
-### 📊 Operations Teams
-
-* Access operational information
-* Review process documents
-* Find recurring issues
-* Retrieve instructions more quickly
+5. Open Pull Request
 
 ---
 
-## 🧠 Skills Demonstrated
+# 📌 Roadmap
 
-This project demonstrates practical experience in:
-
-* Python application development
-* REST API design
-* FastAPI backend engineering
-* MySQL database integration
-* User authentication
-* Data validation
-* Document upload handling
-* AI API integration
-* Prompt design
-* Natural-language interfaces
-* Error handling
-* Environment configuration
-* Git and GitHub workflows
-* Modular software architecture
-* Technical documentation
-* Business problem analysis
+- [x] User Authentication
+- [x] Document Upload
+- [x] AI Summaries
+- [x] AI Chat
+- [x] REST API
+- [ ] Semantic Search
+- [ ] Vector Database
+- [ ] RAG Pipeline
+- [ ] Docker Support
+- [ ] Cloud Deployment
+- [ ] Role-Based Access Control
+- [ ] Background Processing
 
 ---
 
-## 🔒 Security Considerations
+# 👨‍💻 Author
 
-The project should apply the following security practices:
+## Katlego Masela
 
-* Password hashing
-* Token-based authentication
-* Protected API routes
-* File-type validation
-* File-size restrictions
-* Secure environment variables
-* Database access controls
-* Input validation
-* API error handling
-* User-specific data isolation
+**AI Applied Engineer • AI Automation Engineer • AI Solutions Engineer**
 
-Sensitive values such as API keys, database credentials, and authentication secrets must never be committed to GitHub.
+Passionate about building intelligent software that combines AI, automation, cloud technologies, and scalable backend engineering to solve real-world business challenges.
 
 ---
 
-## 🗺️ Development Roadmap
+### 📫 Contact
 
-### Phase 1: Foundation
+📧 **Email**
 
-* [ ] Create FastAPI application
-* [ ] Configure MySQL database
-* [ ] Implement user registration
-* [ ] Implement user login
-* [ ] Add document upload functionality
-* [ ] Add document listing and retrieval
+maselakatlego513@gmail.com
 
-### Phase 2: AI Integration
+💼 **LinkedIn**
 
-* [ ] Integrate OpenAI API
-* [ ] Generate document summaries
-* [ ] Add question-and-answer functionality
-* [ ] Create AI chat interface
-* [ ] Improve prompt handling
+https://www.linkedin.com/in/katlego-masela-910613273/
 
-### Phase 3: Intelligence Layer
+🐙 **GitHub**
 
-* [ ] Add semantic search
-* [ ] Generate document embeddings
-* [ ] Introduce vector storage
-* [ ] Implement Retrieval-Augmented Generation
-* [ ] Support multi-document conversations
-
-### Phase 4: Production Readiness
-
-* [ ] Add automated tests
-* [ ] Add Docker support
-* [ ] Add background task processing
-* [ ] Improve logging and monitoring
-* [ ] Deploy to a cloud platform
-* [ ] Add continuous integration
+https://github.com/KatlegoMasela
 
 ---
 
-## 🔮 Planned Improvements
+# ⭐ Support
 
-Potential future enhancements include:
+If you found this project helpful, consider giving it a ⭐ on GitHub.
 
-* PDF text extraction
-* Microsoft Word document support
-* Semantic search
-* Vector databases
-* Retrieval-Augmented Generation
-* Role-based access control
-* Optical Character Recognition
-* Multi-document AI conversations
-* Document categories and tags
-* Cloud file storage
-* Docker deployment
-* Background task processing
-* Audit logging
-* Usage analytics
-* Automated testing
-* Continuous integration and deployment
-
-These features are planned improvements and are not presented as completed functionality unless implemented in the codebase.
-
----
-
-## 📈 Project Value
-
-The AI Operations Command Center demonstrates how AI can be applied to a real operational problem rather than being used as a standalone chatbot.
-
-The project focuses on:
-
-* Reducing time spent searching for information
-* Improving access to document knowledge
-* Making long content easier to understand
-* Supporting faster decision-making
-* Combining AI with practical backend engineering
-* Building a foundation for enterprise knowledge applications
-
----
-
-## ❓ Why This Project Matters
-
-This project was created to demonstrate the complete process of building an applied AI solution:
-
-```text
-Business Problem
-      ↓
-Solution Design
-      ↓
-Backend Development
-      ↓
-Database Integration
-      ↓
-AI Integration
-      ↓
-User Experience
-      ↓
-Operational Value
-```
-
-It reflects the responsibilities of an **AI Applied Engineer**, combining software engineering, APIs, databases, AI services, document processing, and business problem-solving.
-
----
-
-## 👨‍💻 Author
-
-### Katlego Masela
-
-**AI Applied Engineer | AI Automation Engineer | AI Solutions Engineer**
-
-Focused on building intelligent applications that combine artificial intelligence, automation, APIs, databases, and scalable backend systems to solve practical business problems.
-
-<p>
-  <a href="https://github.com/YOUR-GITHUB-USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-View_Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
-  </a>
-</p>
+It helps others discover the project and supports future development.
 
 ---
 
 <div align="center">
 
-### ⭐ Built as a flagship applied AI engineering project
+### Built with ❤️ using Python, FastAPI, MySQL & OpenAI
 
-If this project is useful, consider giving the repository a star.
+**AI Operations Command Center**
+
+Turning documents into intelligent conversations.
 
 </div>
