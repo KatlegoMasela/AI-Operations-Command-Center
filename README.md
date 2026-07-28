@@ -637,19 +637,23 @@ Passionate about building intelligent software that combines AI, automation, clo
 
 ---
 
-### 📫 Contact
+## 🌐 Connect With Me
 
-📧 **Email**
+<p align="left">
 
-maselakatlego513@gmail.com
+<a href="mailto:maselakatlego513@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-💼 **LinkedIn**
+<a href="https://www.linkedin.com/in/katlego-masela-910613273/">
+<img src="https://img.shields.io/badge/LinkedIn-Follow-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-https://www.linkedin.com/in/katlego-masela-910613273/
+<a href="https://github.com/KatlegoMasela">
+<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-🐙 **GitHub**
-
-https://github.com/KatlegoMasela
+</p>
 
 ---
 
